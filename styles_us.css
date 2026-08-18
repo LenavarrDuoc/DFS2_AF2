@@ -1,0 +1,85 @@
+
+
+/* regla por TAG */
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cornflowerblue;
+    background-image: url(img_us/catan1_gif.gif);
+    background-size: cover;
+    background-position: center center; /*el 1er argumento controla posición horizontal. El 2do controla posición vertical. si se escribe center una sola vez, css asume que se quiere centrar en ambos ejes, pero es buena práctica colocar ambos.*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 5;
+}
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(250, 212, 122);
+    text-align: center;
+    color: rgb(119, 7, 7);
+}
+
+article{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+/*Regla por ID: se define con # al inicio del nombre*/
+#encabezado{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(235, 174, 31);
+    text-align: center;
+    color: rgb(119, 7, 7);
+}
+
+/*Regla por CLASE: se define con . al inicio del nombre */
+.seccionBody{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(234, 232, 170);
+    margin: 600px;
+    border: 5px solid rgb(248, 221, 200);
+    margin: 50px;
+    padding: 10px;
+}
+
+.seccionEquipo1{
+    text-align: center;
+    background-color: rgb(241, 241, 200);
+}
+
+.seccionEquipo2{
+    text-align: center;
+    background-color: rgb(241, 241, 200);
+
+}
+
+.seccionImagen1{
+    animation: latido 1.5s infinite ease-in-out;
+    transition: transform 0.2s ease;
+}
+
+.seccionImagen2{
+    animation: latido 1.5s infinite ease-in-out;
+    transition: transform 0.2s ease;
+}
+
+.seccionVideo{
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes latido {
+    0% { transform: scale(1); }
+    14% { transform: scale(1.08); }
+    28% { transform: scale(1); }
+    42% { transform: scale(1.08); }
+    70% { transform: scale(1); }
+    100% { transform: scale(1); }
+}
