@@ -68,6 +68,26 @@ h3 {
     padding-top: 0px;
 }
 
+.producto:hover{
+    animation: latido 1.5s infinite ease-in-out;
+    transition: transform 0.2s ease;
+}
+
+/* .linkInicio:hover{
+    animation: latido 1.5s infinite ease-in-out;
+    transition: transform 0.2s ease;
+} */
+
+.linkNosotros:hover{
+    animation: latido 1.5s infinite ease-in-out;
+    transition: transform 0.2s ease;
+}
+
+.linkContacto:hover{
+    animation: latido 1.5s infinite ease-in-out;
+    transition: transform 0.2s ease;
+}
+
 footer {
     background-color: #FFD54F;
     border: 5px solid #E53935;
@@ -75,4 +95,14 @@ footer {
     text-align: center;
     font-size: 20px;
     color: #E53935;
+}
+
+/* animaciones: */
+@keyframes latido {
+    0% { transform: scale(1); }
+    14% { transform: scale(1.08); }
+    28% { transform: scale(1); }
+    42% { transform: scale(1.08); }
+    70% { transform: scale(1); }
+    100% { transform: scale(1); }
 }
