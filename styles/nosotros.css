@@ -6,7 +6,7 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: cornflowerblue;
-    background-image: url(img_us/farmacia2_gif.gif);
+    background-image: url(../img/farmacia2_gif.gif);
     background-size: cover;
     background-position: center center; /*el 1er argumento controla posición horizontal. El 2do controla posición vertical. si se escribe center una sola vez, css asume que se quiere centrar en ambos ejes, pero es buena práctica colocar ambos.*/
     background-attachment: fixed;
